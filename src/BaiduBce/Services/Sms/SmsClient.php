@@ -86,7 +86,7 @@ class SmsClient extends BceBaseClient
         return $this->sendRequest(
             HttpMethod::POST,
             $argss,
-            "api/v3/sendSms"
+            "/api/v3/sendSms"
         );
     }
 
